@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidStudio Shortcuts</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">About</string>
+    <string name="about_dialog_message">This app will help you to keep android studio shortcuts handy. As a developer shortcuts have always helped me a lot so, in the same way I wish this app can help you too.\n\nAll the shortcuts are taken from https://developer.android.com/studio/intro/keyboard-shortcuts</string>
+</resources>

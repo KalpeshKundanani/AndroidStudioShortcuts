@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Theme">
+        <attr name="titleColor" format="reference" />
+        <attr name="labelColor" format="reference" />
+        <attr name="subItemTextColor" format="reference" />
+        <attr name="themeBackgroundColor" format="reference" />
+        <attr name="themeForegroundColor" format="reference" />
+    </declare-styleable>
+</resources>

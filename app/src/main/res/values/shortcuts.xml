@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="general">General</string>
+    <string name="navigating_and_searching_within_studio">Navigating and searching within Studio</string>
+    <string name="writing_code">Writing code</string>
+    <string name="build_and_run">Build and run</string>
+    <string name="debugging">Debugging</string>
+    <string name="refactoring">Refactoring</string>
+    <string name="version_control_or_local_history">Version control / local history</string>
+
+
+
+    <string-array name="shortcuts_base_array">
+        <item>@string/general</item>
+        <item>@string/navigating_and_searching_within_studio</item>
+        <item>@string/writing_code</item>
+        <item>@string/build_and_run</item>
+        <item>@string/debugging</item>
+        <item>@string/refactoring</item>
+        <item>@string/version_control_or_local_history</item>
+    </string-array>
+
+    <string-array name="shortcuts_general">
+        <item>Save all:~~:Control + S:~~:Command + S</item>
+        <item>Synchronize:~~:Control + Alt + Y:~~:Command + Option + Y</item>
+        <item>Maximize/minimize editor:~~:Control + Shift + F12:~~:Control + Command + F12</item>
+        <item>Add to favorites:~~:Alt + Shift + F:~~:Option + Shift + F</item>
+        <item>Inspect current file with current profile:~~:Alt + Shift + I:~~:Option + Shift + I</item>
+        <item>Quick switch scheme:~~:Control + ` (backquote):~~:Control + ` (backquote)</item>
+        <item>Open settings dialogue:~~:Control + Alt + S:~~:Command + , (comma)</item>
+        <item>Open project structure dialog:~~:Control + Alt + Shift + S:~~:Command + ; (semicolon)</item>
+        <item>Switch between tabs and tool window:~~:Control + Tab:~~:Control + Tab</item>
+    </string-array>
+
+    <string-array name="shortcuts_navigating_and_searching_within_studio">
+        <item>Search everything (including code and menus):~~:Press Shift twice:~~:Press Shift twice</item>
+        <item>Find:~~:Control + F:~~:Command + F</item>
+        <item>Find next:~~:F3:~~:Command + G</item>
+        <item>Find previous:~~:Shift + F3:~~:Command + Shift + G</item>
+        <item>Replace:~~:Control + R:~~:Command + R</item>
+        <item>Find action:~~:Control + Shift + A:~~:Command + Shift + A</item>
+        <item>Search by symbol name:~~:Control + Alt + Shift + N:~~:Command + Option + O</item>
+        <item>Find class:~~:Control + N:~~:Command + O</item>
+        <item>Find file (instead of class):~~:Control + Shift + N:~~:Command + Shift + O</item>
+        <item>Find in path:~~:Control + Shift + F:~~:Command + Shift + F</item>
+        <item>Open file structure pop-up:~~:Control + F12:~~:Command + F12</item>
+        <item>Navigate between open editor tabs:~~:Alt + Right/Left Arrow:~~:Control + Right/Left Arrow</item>
+        <item>Jump to source:~~:F4 / Control + Enter:~~:F4 / Command + Down Arrow</item>
+        <item>Open current editor tab in new window:~~:Shift + F4:~~:Shift + F4</item>
+        <item>Recently opened files pop-up:~~:Control + E:~~:Command + E</item>
+        <item>Recently edited files pop-up:~~:Control + Shift + E:~~:Command + Shift + E</item>
+        <item>Go to last edit location:~~:Control + Shift + Backspace:~~:Command + Shift + Backspace</item>
+        <item>Close active editor tab:~~:Control + F4:~~:Command + W</item>
+        <item>Return to editor window from a tool window:~~:Esc:~~:Esc</item>
+        <item>Hide active or last active tool window:~~:Shift + Esc:~~:Shift + Esc</item>
+        <item>Go to line:~~:Control + G:~~:Command + L</item>
+        <item>Open type hierarchy:~~:Control + H:~~:Control + H</item>
+        <item>Open method hierarchy:~~:Control + Shift + H:~~:Command + Shift + H</item>
+        <item>Open call hierarchy:~~:Control + Alt + H:~~:Control + Option + H</item>
+    </string-array>
+
+    <string-array name="shortcuts_writing_code">
+        <item>Generate code (getters, setters, constructors, hashCode/equals, toString, new file, new class):~~:Alt + Insert:~~:Command + N</item>
+        <item>Override methods:~~:Control + O:~~:Control + O</item>
+        <item>Implement methods:~~:Control + I:~~:Control + I</item>
+        <item>Surround with (if…else / try…catch / etc.):~~:Control + Alt + T:~~:Command + Option + T</item>
+        <item>Delete line at caret:~~:Control + Y:~~:Command + Backspace</item>
+        <item>Collapse/expand current code block:~~:Control + minus/plus:~~:Command + minus/plus</item>
+        <item>Collapse/expand all code blocks:~~:Control + Shift + minus/plus:~~:Command + Shift + minus/plus</item>
+        <item>Duplicate current line or selection:~~:Control + D:~~:Command + D</item>
+        <item>Basic code completion:~~:Control + Space:~~:Control + Space</item>
+        <item>Smart code completion (filters the list of methods and variables by expected type):~~:Control + Shift + Space:~~:Control + Shift + Space</item>
+        <item>Complete statement:~~:Control + Shift + Enter:~~:Command + Shift + Enter</item>
+        <item>Quick documentation lookup:~~:Control + Q:~~:Control + J</item>
+        <item>Show parameters for selected method:~~:Control + P:~~:Command + P</item>
+        <item>Go to declaration (directly):~~:Control + B or Control + Click:~~:Command + B or Command + Click</item>
+        <item>Go to implementations:~~:Control + Alt + B:~~:Command + Alt + B</item>
+        <item>Go to super-method/super-class:~~:Control + U:~~:Command + U</item>
+        <item>Open quick definition lookup:~~:Control + Shift + I:~~:Command + Y</item>
+        <item>Toggle project tool window visibility:~~:Alt + 1:~~:Command + 1</item>
+        <item>Toggle bookmark:~~:F11:~~:F3</item>
+        <item>Toggle bookmark with mnemonic:~~:Control + F11:~~:Option + F3</item>
+        <item>Comment/uncomment with line comment:~~:Control + /:~~:Command + /</item>
+        <item>Comment/uncomment with block comment:~~:Control + Shift + /:~~:Command + Shift + /</item>
+        <item>Select successively increasing code blocks:~~:Control + W:~~:Option + Up</item>
+        <item>Decrease current selection to previous state:~~:Control + Shift + W:~~:Option + Down</item>
+        <item>Move to code block start:~~:Control + [:~~:Option + Command + [</item>
+        <item>Move to code block end:~~:Control + ]:~~:Option + Command + ]</item>
+        <item>Select to the code block start:~~:Control + Shift + [:~~:Option + Command + Shift + [</item>
+        <item>Select to the code block end:~~:Control + Shift + ]:~~:Option + Command + Shift + ]</item>
+        <item>Delete to end of word:~~:Control + Delete:~~:Option + Delete</item>
+        <item>Delete to start of word:~~:Control + Backspace:~~:Option + Backspace</item>
+        <item>Optimize imports:~~:Control + Alt + O:~~:Control + Option + O</item>
+        <item>Project quick fix (show intention actions and quick fixes):~~:Alt + Enter:~~:Option + Enter</item>
+        <item>Reformat code:~~:Control + Alt + L:~~:Command + Option + L</item>
+        <item>Auto-indent lines:~~:Control + Alt + I:~~:Control + Option + I</item>
+        <item>Indent/unindent lines:~~:Tab/Shift + Tab:~~:Tab/Shift + Tab</item>
+        <item>Smart line join:~~:Control + Shift + J:~~:Control + Shift + J</item>
+        <item>Smart line split:~~:Control + Enter:~~:Command + Enter</item>
+        <item>Start new line:~~:Shift + Enter:~~:Shift + Enter</item>
+        <item>Next/previous highlighted error:~~:F2 / Shift + F2:~~:F2 / Shift + F2</item>
+    </string-array>
+
+    <string-array name="shortcuts_build_and_run">
+        <item>Build:~~:Control + F9:~~:Command + F9</item>
+        <item>Build and run:~~:Shift + F10:~~:Control + R</item>
+        <item>Apply changes (with Instant Run):~~:Control + F10:~~:Control + Command + R</item>
+    </string-array>
+
+    <string-array name="shortcuts_debugging">
+        <item>Debug:~~:Shift + F9:~~:Control + D</item>
+        <item>Step over:~~:F8:~~:F8</item>
+        <item>Step into:~~:F7:~~:F7</item>
+        <item>Smart step into:~~:Shift + F7:~~:Shift + F7</item>
+        <item>Step out:~~:Shift + F8:~~:Shift + F8</item>
+        <item>Run to cursor:~~:Alt + F9:~~:Option + F9</item>
+        <item>Evaluate expression:~~:Alt + F8:~~:Option + F8</item>
+        <item>Resume program:~~:F9:~~:Command + Option + R</item>
+        <item>Toggle breakpoint:~~:Control + F8:~~:Command + F8</item>
+        <item>View breakpoints:~~:Control + Shift + F8:~~:Command + Shift + F8</item>
+    </string-array>
+
+    <string-array name="shortcuts_refactoring">
+        <item>Copy:~~:F5:~~:F5</item>
+        <item>Move:~~:F6:~~:F6</item>
+        <item>Safe delete:~~:Alt + Delete:~~:Command + Delete</item>
+        <item>Rename:~~:Shift + F6:~~:Shift + F6</item>
+        <item>Change signature:~~:Control + F6:~~:Command + F6</item>
+        <item>Inline:~~:Control + Alt + N:~~:Command + Option + N</item>
+        <item>Extract method:~~:Control + Alt + M:~~:Command + Option + M</item>
+        <item>Extract variable:~~:Control + Alt + V:~~:Command + Option + V</item>
+        <item>Extract field:~~:Control + Alt + F:~~:Command + Option + F</item>
+        <item>Extract constant:~~:Control + Alt + C:~~:Command + Option + C</item>
+        <item>Extract parameter:~~:Control + Alt + P:~~:Command + Option + P</item>
+    </string-array>
+
+    <string-array name="shortcuts_version_control_or_local_history">
+        <item>Commit project to VCS:~~:Control + K:~~:Command + K</item>
+        <item>Update project from VCS:~~:Control + T:~~:Command + T</item>
+        <item>View recent changes:~~:Alt + Shift + C:~~:Option + Shift + C</item>
+        <item>Open VCS popup:~~:Alt + ` (backquote):~~:Control + V</item>
+    </string-array>
+    
+</resources>

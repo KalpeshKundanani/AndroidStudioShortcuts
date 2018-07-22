@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="darculaPrimary">#303030</color>
+    <color name="darculaPrimaryDark">#272727</color>
+    <color name="darculaColorAccent">#D3913A</color>
+    <color name="darculaLabelTextColor">#517A3A</color>
+
+    <color name="intellijPrimary">#FFFFFF</color>
+    <color name="intellijPrimaryDark">#E7E7E7</color>
+    <color name="intellijColorAccent">#2F65CA</color>
+</resources>

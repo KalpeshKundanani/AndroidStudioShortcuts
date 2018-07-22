@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Darcula" parent="AppTheme">
+        <item name="themeForegroundColor">@color/darculaPrimary</item>
+        <item name="themeBackgroundColor">@color/darculaPrimaryDark</item>
+        <item name="colorPrimary">@color/darculaPrimary</item>
+        <item name="colorPrimaryDark">@color/darculaPrimaryDark</item>
+        <item name="colorAccent">@color/darculaColorAccent</item>
+        <item name="titleColor">@color/darculaColorAccent</item>
+        <item name="subItemTextColor">@android:color/primary_text_dark</item>
+        <item name="labelColor">@color/darculaLabelTextColor</item>
+    </style>
+
+    <style name="AppTheme.Intellij" parent="AppTheme">
+        <item name="colorPrimary">@color/darculaPrimary</item>
+        <item name="colorPrimaryDark">@color/darculaPrimaryDark</item>
+        <item name="themeForegroundColor">@color/intellijPrimary</item>
+        <item name="themeBackgroundColor">@color/intellijPrimaryDark</item>
+        <item name="colorAccent">@color/intellijColorAccent</item>
+        <item name="titleColor">@color/intellijColorAccent</item>
+        <item name="subItemTextColor">@android:color/primary_text_light</item>
+        <item name="labelColor">@color/darculaLabelTextColor</item>
+    </style>
+
+    <style name="titleStyle">
+        <item name="android:textColor">?attr/titleColor</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+    </style>
+
+    <style name="itemTextStyle">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">?attr/subItemTextColor</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat</item>
+    </style>
+
+    <style name="labelStyle">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">?attr/labelColor</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>
